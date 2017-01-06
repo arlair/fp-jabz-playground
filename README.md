@@ -1,0 +1,1 @@
+Took some code from [this JavaScript functional programming article](https://medium.com/@rajaraodv/functional-programming-in-js-with-practical-examples-part-1-87c2b0dbc276#.y98omytwd) which was using Ramda tried converting it to TypeScript and [Jabz](https://github.com/Funkia/jabz).

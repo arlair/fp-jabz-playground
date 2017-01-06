@@ -1,0 +1,22 @@
+{
+  "name": "show-index-page",
+  "version": "1.0.0",
+  "description": "fp example",
+  "main": "ramda-version.js",
+  "scripts": {
+    "ramda": "node ramda-version.js",
+    "jabz": "ts-node jabz-version.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jabz": "0.0.12",
+    "ramda": "0.23.0",
+    "ramda-fantasy": "0.7.0"
+  },
+  "devDependencies": {
+    "ts-node": "2.0.0",
+    "typescript": "2.1.4"
+  }
+}
