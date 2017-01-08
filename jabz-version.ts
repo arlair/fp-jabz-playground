@@ -48,16 +48,7 @@ const maybeGetUrl = R.curry(function(allUrls, language) {//curry to convert this
 
 function boot(user, defaultURL) {
     const userUrl = getURLForUser(user);
-    // console.log('user URL: ', userUrl);
-    // console.log('nothing: ', nothing);
-    // console.log('isNothing: ', isNothing(userUrl));
-    // console.log('userUrl === nothing: ', userUrl === nothing);
-    // console.log('userUrl == nothing: ', userUrl == nothing);
-    // console.log('nothing === nothing: ', nothing === nothing);
-    // console.log('isNothing(nothing): ', isNothing(nothing));
     const url = fromMaybe(defaultURL, userUrl);
-    // console.log('boot default: ', defaultURL);
-    // console.log('boot url: ', url);
    showIndexPage(url);
 }
 
