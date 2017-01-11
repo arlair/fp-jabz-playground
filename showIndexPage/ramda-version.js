@@ -16,7 +16,7 @@ let indexURLs = {
      'sp': 'http://mysite.com/sp', //Spanish
     'jp': 'http://mysite.com/jp'   //Japanese
 }
-//apply url to window.location
+// actually just console log instead of using browser
 const showIndexPage = (url) => console.log('url: ' + url);
 
 //Functional Programming:
